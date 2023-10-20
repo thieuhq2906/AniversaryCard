@@ -14,7 +14,7 @@
     timer = setTimeout(function () {
       card.setAttribute('class', 'open-fully');
       timer = null;
-    }, 1000);
+    }, 200);
   });
 
   closeB.addEventListener('click', function () {
