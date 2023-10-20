@@ -98,9 +98,9 @@ p.signed {
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
-  /* transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
   transition: transform 1s linear;
-  transition: transform 1s linear, -webkit-transform 1s linear; */
+  transition: transform 1s linear, -webkit-transform 1s linear;
   position: relative;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -405,8 +405,8 @@ font-family: 'Lobster', cursive;
           backface-visibility: hidden;
   background-position: center;
   background-size: cover;
-  -webkit-animation: fade-in 20s ease-in;
-          animation: fade-in 20s ease-in;
+  /* -webkit-animation: fade-in 20s ease-in;
+          animation: fade-in 20s ease-in; */
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
