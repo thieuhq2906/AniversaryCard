@@ -23,7 +23,7 @@
     timer = setTimeout(function () {
       card.setAttribute('class', '');
       timer = null;
-    }, 1000);
+    }, 200);
   });
 
 }());
